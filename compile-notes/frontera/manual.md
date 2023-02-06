@@ -22,7 +22,7 @@ Install gcc@11.2.0
 
 * `spack compiler add ...` (`...` is the last line of previous command)
 
-## Download `CarpetX`
+## Download CarpetX
 
 ```
 curl -kLO https://raw.githubusercontent.com/gridaphobe/CRL/ET_2022_05/GetComponents
