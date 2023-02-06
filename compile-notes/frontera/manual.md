@@ -22,6 +22,13 @@ Install gcc@11.2.0
 
 * `spack compiler add ...` (`...` is the last line of previous command)
 
+## Download `CarpetX`
+
+```
+curl -kLO https://raw.githubusercontent.com/gridaphobe/CRL/ET_2022_05/GetComponents
+chmod a+x GetComponents
+./GetComponents --root Cactus --parallel --no-shallow https://bitbucket.org/eschnett/cactusamrex/raw/rhaas-thornlist/manifest/carpetx.th
+```
 
 ## Install the CPU version
 
@@ -43,6 +50,8 @@ Install other required packages
 Install CarpetX
 
 * `spack load gcc@11.2.0`
+
+* `cd Cactus`
 
 * `gmake CarpetX-gcc options=config_frontera_gcc-11.2.0.cfg`
 
@@ -73,6 +82,8 @@ Install CarpetX
 * `spack load gcc@11.2.0`
 
 * `spack load cuda` (if you want install the GPU version)
+
+* `cd Cactus`
 
 * `gmake CarpetX-cuda options=config_frontera_cuda-11.5.2.cfg`
 
