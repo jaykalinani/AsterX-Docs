@@ -87,7 +87,7 @@ Install CarpetX
 
 * `gmake CarpetX-cuda options=config_frontera_cuda-11.5.2.cfg`
 
-* `cp repos/cactusamrex/azure-pipelines/carpetx.th configs/CarpetX-gcc/ThornList`
+* `cp repos/cactusamrex/azure-pipelines/carpetx.th configs/CarpetX-cuda/ThornList`
 
 * `gmake -j16 CarpetX-cuda`
 
