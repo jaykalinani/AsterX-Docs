@@ -81,7 +81,7 @@ Install CarpetX
 
 * `spack load gcc@11.2.0`
 
-* `spack load cuda`
+* `spack load cuda@11.5.2`
 
 * `cd Cactus`
 
