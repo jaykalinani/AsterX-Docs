@@ -146,7 +146,8 @@ Numerical/AEILocalInterp
 # CarpetX thorns
 !TARGET   = $ARR
 !TYPE     = git
-!URL      = https://github.com/EinsteinToolkit/CarpetX.git
+!URL      = https://github.com/jaykalinani/CarpetX.git
+!REPO_BRANCH = ETX_2025_12
 !REPO_PATH= $2
 !CHECKOUT =
 CarpetX/ADMBaseX
@@ -166,7 +167,8 @@ CarpetX/TmunuBaseX
 # SpacetimeX thorns
 !TARGET   = $ARR
 !TYPE     = git
-!URL      = https://github.com/EinsteinToolkit/SpacetimeX.git
+!URL      = https://github.com/jaykalinani/SpacetimeX.git
+!REPO_BRANCH = ETX_2025_12
 !REPO_PATH= $2
 !CHECKOUT =
 SpacetimeX/AHFinderDirect
@@ -189,7 +191,8 @@ SpacetimeX/Z4c
 # AsterX thorns
 !TARGET   = $ARR
 !TYPE     = git
-!URL      = https://github.com/EinsteinToolkit/AsterX.git
+!URL      = https://github.com/jaykalinani/AsterX.git
+!REPO_BRANCH = ETX_2025_12
 !REPO_PATH= $2
 !CHECKOUT =
 AsterX/AsterMasks
