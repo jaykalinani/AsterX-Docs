@@ -480,7 +480,7 @@ def main():
 
     if args.write_report:
         write_conversion_report(args.report_file)
-        print(f"✅ Wrote conversion report to: {args.report_file}")
+        print(f"Wrote conversion report to: {args.report_file}")
         did_something = True
 
     if args.command == "list":
