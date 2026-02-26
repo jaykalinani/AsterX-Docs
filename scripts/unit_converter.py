@@ -18,7 +18,6 @@ Notes
 - For magnetic field conversion:
     * CGS magnetic field is interpreted as Gauss
     * SI magnetic field is interpreted as Tesla
-  The conversion constant is retained from your original script for compatibility.
 
 Examples
 --------
@@ -92,8 +91,8 @@ class Units:
 # =============================================================================
 
 C_SI          = 299792458.0            # Vacuum speed of light [m/s]
-G_SI          = 6.6743e-11             # Gravitational constant [m^3 kg^-1 s^-2]
-M_SOL_SI      = 1.98892e30             # Solar mass [kg]
+G_SI          = 6.6743e-11             # Gravitational constant [m^3 kg^-1 s^-2] # from astropy
+M_SOL_SI      = 1.98840987e+30         # Solar mass [kg] # from astropy
 EV_SI         = 1.602176565e-19        # Electron volt [J]
 MEV_SI        = 1e6 * EV_SI
 UAMU_SI       = 931.494061 * MEV_SI / (C_SI ** 2)  # Unified atomic mass unit [kg]
